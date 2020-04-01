@@ -1,0 +1,18 @@
+.tableheader, .tabledata {
+    min-width: 200px;
+    text-align: center;
+    
+}
+
+table { 
+    border-collapse: collapse; 
+    overflow-x: scroll;
+}
+
+.tableheader {
+    border: 2px solid black;
+}
+
+tr {
+    border: 1px solid black;
+}
