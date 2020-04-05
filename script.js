@@ -1,3 +1,5 @@
+var moment = require('moment');
+
 class Book {
     constructor(title, author, pages) {
         this.title = title
@@ -16,7 +18,7 @@ class Book {
 }
 
 let theLibrary = [];
-
+let bagel = "bagel";
 function addBookToLibrary(title, author, pages) {
     let book = new Book(title, author, pages);
     theLibrary.push(book);
